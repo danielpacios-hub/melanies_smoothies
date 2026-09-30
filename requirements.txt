@@ -1,0 +1,9 @@
+definition_version: 2
+entities:
+  streamlit_app:
+    type: streamlit
+    main_file: SMOOTHIES.py
+    artifacts:
+      - pyproject.toml
+      - SMOOTHIES.py
+      - .streamlit/config.toml
